@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+  "name": "animation-desync",
+  "version-string": "0.1.0",
+  "port-version": 0,
+  "description": "Make looping animations not always synchronized.",
+  "homepage": "https://www.skyrimng.com",
+  "license": "Apache-2.0",
+  "features": {
+    "plugin": {
+      "description": "Build the SKSE plugin.",
+      "dependencies": [
+        "commonlibsse-ng",
+        "directxmath",
+        "directxtk",
+        "openvr"
+      ]
+    }
+  },
+  "default-features": [
+    "plugin"
+  ]
+}
